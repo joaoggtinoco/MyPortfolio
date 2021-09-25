@@ -1,49 +1,44 @@
 body{
+    font-family: 'Courier New', Courier, monospace;
     width: auto;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: greenyellow;
     margin: 0px;
-
 }
 
-header {
-background-image: linear-gradient(35deg, rgb(93, 253, 107), rgb(255, 255, 255));
-padding: 30px;
+section {
 margin: 0px;
-background-color: rgb(76, 201, 138);
+height: auto;
+font-size: 22px;
 display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-header div img {
-    display: flex;
+.imagem {
     border-radius: 100px;
-    margin: 20px 70px;
-    
+    margin-top: 30px;
+    width: 200px;
 }
 
-.descricao{
-    margin-left: 170px;
-}
-
-aside{
-    display: flex;
-    height:auto;
-    background-image: linear-gradient(35deg, black, rgb(255, 255, 255));
-    margin: 5px;
-    padding: 20px;
-    flex-direction: column;
-    
-}
-
-header div:nth-child(2) {
-    background-color: rgba(102, 102, 102, 0.199);
-    border: 2px outset  black;
-    padding: 5px;
-    border-radius: 0px 15px 0px 15px;
-    width: auto;
-    
+aside div h1 {
+    text-align: center;
 }
 
 footer {
-
+    background-color: black;
+    display: flex;
+    padding-right: 10px;
+    justify-content: end;
+    align-items: center;
+    height: 30px;
+    
 }
+
+a{
+    color: cornsilk;
+}
+a:hover {
+    color: rgb(53, 53, 53);
+}
+
