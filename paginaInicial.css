@@ -2,7 +2,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     width: auto;
     height: auto;
-    background-color: greenyellow;
+    background-color: rgb(80, 80, 80);
     margin: 0px;
 }
 
@@ -17,13 +17,73 @@ align-items: center;
 
 .imagem {
     border-radius: 100px;
-    margin-top: 30px;
+    margin: 30px;
     width: 200px;
+    box-shadow: 0 0 1em black;
 }
 
 aside div h1 {
     text-align: center;
 }
+
+.espacoEntreBlocos {
+margin-top: 70px;
+}
+
+aside div p {
+    display: flex;
+    width: 700px;
+    text-align: center;
+}
+ aside div {
+     padding: 10px;
+     margin-bottom: 40px;
+     background-color:rgba(189, 189, 189, 0.699);
+     color: rgb(3, 3, 3);
+ }
+.sombra {
+    box-shadow: 0 0 1em black;
+    border-radius: 20px;
+}
+
+nav {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1em black;
+    margin:  0px auto 40px;
+    padding: 20px;
+    border-radius: 20px;
+    
+    align-items: center;
+    
+}
+
+#primeiraDivNav{
+    margin-bottom:  30px ;
+
+}
+
+#segundaDivNav{
+    display: flex;
+    flex-direction: column; 
+}
+
+#divAssunto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#divMenssagem {
+    display: flex;
+    flex-direction: column;
+}
+
+#textoEntreEmContato {
+    margin: 0px 0px 20px;
+}
+
 
 footer {
     background-color: black;
@@ -32,6 +92,7 @@ footer {
     justify-content: end;
     align-items: center;
     height: 30px;
+    width: auto;
     
 }
 
