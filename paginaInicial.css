@@ -84,6 +84,10 @@ nav {
     margin: 0px 0px 20px;
 }
 
+button {
+    margin-top: 10px;
+}
+
 
 footer {
     background-color: black;
